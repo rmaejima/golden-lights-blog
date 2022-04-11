@@ -1,7 +1,7 @@
 import React from 'react';
 import { ApolloProvider } from '@apollo/client';
 import './App.css';
-import { contentfulClient } from './utils/graphql/client';
+import { contentfulClient } from './graphql/client';
 import { AchievementList } from './components/AchievementList';
 
 function App() {
