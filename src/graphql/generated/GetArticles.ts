@@ -8,12 +8,12 @@
 // ====================================================
 
 export interface GetArticles_nextJsBlogCollection_items {
-  __typename: "NextJsBlog";
+  __typename: 'NextJsBlog';
   title: string | null;
 }
 
 export interface GetArticles_nextJsBlogCollection {
-  __typename: "NextJsBlogCollection";
+  __typename: 'NextJsBlogCollection';
   items: (GetArticles_nextJsBlogCollection_items | null)[];
 }
 
