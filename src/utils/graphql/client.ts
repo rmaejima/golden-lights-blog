@@ -6,7 +6,6 @@ const httpLink = createHttpLink({
 });
 
 const authLink = setContext(() => {
-  // console.log(process.env.CONTENTFUL_ACCESS_TOKEN);
   return {
     headers: {
       'Content-Type': 'application/json',
