@@ -3,9 +3,7 @@ import { useQuery } from '@apollo/client';
 import { GET_ARTICLES } from '../graphql/query';
 import { GetArticles } from 'graphql/generated/GetArticles';
 
-interface Props {}
-
-export const AchievementList: React.VFC<Props> = () => {
+export const AchievementList: React.VFC = () => {
   const { loading, error, data } = useQuery<GetArticles>(GET_ARTICLES);
   const items = useMemo(() => {
     if (!data || !data.nextJsBlogCollection) {

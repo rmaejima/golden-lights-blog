@@ -1,23 +1,23 @@
+// eslint-disable-next-line no-undef
 module.exports = {
-  extends: [
-    'next/core-web-vitals',
-    'prettier',
-    'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended',
-  ],
-  plugins: ['@typescript-eslint'],
-  rules: {
-    'no-console': [
-      'warn',
-      {
-        allow: ['warn', 'error'],
-      },
-    ],
-    '@typescript-eslint/no-unused-vars': [
-      'warn',
-      {
-        ignoreRestSiblings: true,
-      },
-    ],
+  env: {
+    browser: true,
+    es2021: true,
   },
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:@typescript-eslint/recommended',
+    'prettier',
+  ],
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+  },
+  plugins: ['react', '@typescript-eslint'],
+  rules: {},
 };
