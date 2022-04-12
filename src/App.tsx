@@ -4,14 +4,14 @@ import { ApolloProvider } from '@apollo/client';
 import { contentfulClient } from './graphql/client';
 import { AchievementList } from './components/AchievementList';
 
-function App() {
+const App: React.VFC = () => {
   return (
     <ApolloProvider client={contentfulClient}>
       <Text>hello</Text>
       <AchievementList />
     </ApolloProvider>
   );
-}
+};
 
 export default App;
 
