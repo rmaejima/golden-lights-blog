@@ -5,7 +5,7 @@ jobs:
   eslint:
     runs-on: ubuntu-latest
     steps:
-      - run: pwd
+      - run: cd ../
       - run: yarn
       - run: yarn type-check
       - run: yarn format:check
