@@ -1080,6 +1080,18 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@contentful/rich-text-react-renderer@^15.12.0":
+  version "15.12.0"
+  resolved "https://registry.yarnpkg.com/@contentful/rich-text-react-renderer/-/rich-text-react-renderer-15.12.0.tgz#0226ca32dc4126ede06c417dc59f0a2464dbd956"
+  integrity sha512-vnmWmVa/paBUHv8wPkcOC0pE8Vc/s+5g9y1UoProy/SDnOs/SAXd2R6EoMM885tk29XyAeF//Lxifo8NL8hBnQ==
+  dependencies:
+    "@contentful/rich-text-types" "^15.12.0"
+
+"@contentful/rich-text-types@^15.12.0":
+  version "15.12.0"
+  resolved "https://registry.yarnpkg.com/@contentful/rich-text-types/-/rich-text-types-15.12.0.tgz#25d51e4c6d353286662c53e038052c999d5c01d0"
+  integrity sha512-PgpNu9X+TteL2P9jNi3nUMvQk/y6fyeFdN18/P1hL8HX5iezFZGskaYNu5rlog4O9yc93XrWfWYfXbuBTE91Kg==
+
 "@csstools/normalize.css@*":
   version "12.0.0"
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-12.0.0.tgz#a9583a75c3f150667771f30b60d9f059473e62c4"
