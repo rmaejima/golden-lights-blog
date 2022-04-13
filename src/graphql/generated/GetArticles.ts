@@ -8,12 +8,12 @@
 // ====================================================
 
 export interface GetArticles_nextJsBlogCollection_items_content {
-  __typename: "NextJsBlogContent";
+  __typename: 'NextJsBlogContent';
   json: any;
 }
 
 export interface GetArticles_nextJsBlogCollection_items_image {
-  __typename: "Asset";
+  __typename: 'Asset';
   title: string | null;
   description: string | null;
   contentType: string | null;
@@ -25,7 +25,7 @@ export interface GetArticles_nextJsBlogCollection_items_image {
 }
 
 export interface GetArticles_nextJsBlogCollection_items {
-  __typename: "NextJsBlog";
+  __typename: 'NextJsBlog';
   title: string | null;
   description: string | null;
   content: GetArticles_nextJsBlogCollection_items_content | null;
@@ -33,7 +33,7 @@ export interface GetArticles_nextJsBlogCollection_items {
 }
 
 export interface GetArticles_nextJsBlogCollection {
-  __typename: "NextJsBlogCollection";
+  __typename: 'NextJsBlogCollection';
   items: (GetArticles_nextJsBlogCollection_items | null)[];
 }
 
