@@ -5,6 +5,20 @@ export const GET_ARTICLES = gql`
     nextJsBlogCollection {
       items {
         title
+        description
+        content {
+          json
+        }
+        image {
+          title
+          description
+          contentType
+          fileName
+          size
+          url
+          width
+          height
+        }
       }
     }
   }
